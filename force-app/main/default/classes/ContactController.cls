@@ -7,4 +7,10 @@ public class ContactController {
             LIMIT 10
         ];
     }
+
+    public static String getAccountList(String accountName) {
+        
+        return accountName;
+
+    }
 }
