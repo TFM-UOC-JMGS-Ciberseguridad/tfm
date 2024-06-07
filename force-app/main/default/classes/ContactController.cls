@@ -7,4 +7,8 @@ public class ContactController {
             LIMIT 10
         ];
     }
+
+    public static List<Account> getAccountList(String accountName) {
+        return Database.query( 'SELECT Id, Name FROM Account WHERE Name = ' + accountName );
+    }
 }
