@@ -7,4 +7,16 @@ public class ContactController {
             LIMIT 10
         ];
     }
+
+    public static String getAccountList(String accountName) {
+        
+        String value1 = 'Esto es una prueba de replicación';
+        String value2 = 'Esto es una prueba de replicación';
+        String value3 = 'Esto es una prueba de replicación';
+        String value4 = 'Esto es una prueba de replicación';
+        String value5 = 'Esto es una prueba de replicación';
+
+        return accountName;
+
+    }
 }
