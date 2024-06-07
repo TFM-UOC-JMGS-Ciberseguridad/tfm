@@ -1,0 +1,9 @@
+* @TFM-UOC-JMGS-Ciberseguridad/equipo-admin
+.vscode/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+.config/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+.force-app/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+manifest/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+scripts/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+.forceignore @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+.gitignore @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
+.prettierrc @TFM-UOC-JMGS-Ciberseguridad/equipo-pre
