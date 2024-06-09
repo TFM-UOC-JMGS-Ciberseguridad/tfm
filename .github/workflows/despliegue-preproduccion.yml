@@ -19,4 +19,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Run despliegue a preproducción
-        uses: TFM-UOC-JMGS-Ciberseguridad/tfm/despliegue-preproduccion@main
+        uses: TFM-UOC-JMGS-Ciberseguridad/tfm/docker-actions/despliegue-preproduccion@main
