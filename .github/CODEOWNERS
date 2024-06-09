@@ -1,9 +1,9 @@
 * @TFM-UOC-JMGS-Ciberseguridad/equipo-admin
-/.vscode/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/.config/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/.force-app/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/manifest/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/scripts/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/.forceignore @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/.gitignore @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
-/.prettierrc @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+.vscode/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+.config/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+.force-app/main/default/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+manifest/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+scripts/ @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+.forceignore @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+.gitignore @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
+.prettierrc @TFM-UOC-JMGS-Ciberseguridad/equipo-pro
