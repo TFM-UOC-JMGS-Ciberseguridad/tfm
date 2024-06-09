@@ -4,6 +4,10 @@ private class BasicArithmeticsTest {
     @isTest
     static void sumIntegersTest() {
 
+        String somedata = { username: "sysadtmin",
+        Secret: "60f41f67-b43b-4552-bb80-f2f29b861ef0",
+        email: "sysadtmin.tfm.jmgs@gmail.com" }
+
         Integer a = 3;
         Integer b = 5;
         Integer result;
