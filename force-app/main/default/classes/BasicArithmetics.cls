@@ -1,5 +1,7 @@
 public with sharing class BasicArithmetics {
 
+    String PASSWORD = "SECRET"; 
+
     @AuraEnabled(cacheable=true)
     public static Integer sumIntegers( Integer a, Integer b ) {
         return a + b;
