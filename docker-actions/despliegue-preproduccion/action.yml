@@ -1,0 +1,5 @@
+name: 'Despliegue'
+descripción: 'Despliegue del contenido del repo a Salesforce preproduccion'
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'

@@ -1,0 +1,22 @@
+name: Despliegue preproducción
+on:   
+  push:
+    branches:
+      - preproduccion
+
+jobs:
+  despliegue-pre:
+    environment: preproduccion
+    name: Despliegue preproducción
+    env:
+      SF_INSTANCE_URL: ${{ secrets.SALESFORCE_URL }} 
+      SF_INSTANCE_ALIAS: ${{ secrets.SALESFORCE_ALIAS }} 
+      SF_CLIENT_ID: ${{ secrets.SALESFORCE_CLIENT_ID }} 
+      SF_USERNAME: ${{ secrets.SALESFORCE_USER }} 
+      SF_JWT: ${{ secrets.SALESFORCE_JWT }} 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Run despliegue a preproducción
+        uses: TFM-UOC-JMGS-Ciberseguridad/tfm/docker-actions/despliegue-preproduccion@main
