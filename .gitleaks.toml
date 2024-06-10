@@ -1,0 +1,17 @@
+
+title = "TFM Configuración de Gitleaks"
+
+[extend]
+useDefault = true
+[[rules]]
+id = 'apex-rule-1'
+description = "Regla para detección de secreto falso en apex"
+regex = '''(?i)(?:apex)(?:.{0,10})(?:=){1}(?:.{0,5})[\"'`](.{4,120})[\"'`]'''
+tags = ["apex", "secreto"]
+secretGroup = 1
+entropy = 3.5
+keywords = [
+  "apex_auth",
+  "apex_password",
+  "apex_token",
+]
